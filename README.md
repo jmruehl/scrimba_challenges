@@ -1,4 +1,4 @@
-# scrimba_challenges
+# Scrimba Challenges
 
 Collection of the weekly Scrimba Challenges
 
