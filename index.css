@@ -54,12 +54,18 @@ button {
 }
 
 #input-btn {
+    position: relative;
+    left: 40%;
     font-size: 30px;
     text-align: center;
-    padding-top: 15px;
+    margin-top: 10px;
+    padding-top: 25px;
     margin: 0 auto;
-    width: 100%;
+    width: 20%;
+    border: solid grey 2px;
+    border-radius: 100%;
 }
+
 
 #emojis-container {
     text-align: center;
@@ -86,7 +92,7 @@ button {
 
 #input-container {
     position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) scale(0);
@@ -105,7 +111,7 @@ button {
     font-size: 30px;
     opacity: 1;
     position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) scale(0);
@@ -116,7 +122,7 @@ button {
     font-size: 30px;
     opacity: 0.7;
     position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) scale(0);

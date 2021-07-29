@@ -57,60 +57,62 @@ startBtn.addEventListener('click', function() {
 
 inputBtn.addEventListener('click', function(){
     name = nameInput.value
+    nameInput.value =''
     emojis = emojisInput.value.split(',')
-    renderEmojis(emojisContainer, emojis, 1, 2, 40, true)
+    emojisInput.value = ''
+    renderEmojis(emojisContainer, emojis, 2, 2, 40, true)
     renderElement(startContainer, 0, 0, 50)
-    renderElement(btnsContainer, 1, 2, 70)
+    renderElement(btnsContainer, 2, 2, 60)
     
 })
 
 addBtn.addEventListener('click', function() {
-    renderElement(btnsContainer, 0, 0, 55)
-    renderElement(inputContainer, 1, 1.5, 70)
+    renderElement(btnsContainer, 0, 0, 50)
+    renderElement(inputContainer, 2, 1.5, 60)
 })
 
 unshiftBtn.addEventListener('click', function() {
     emojis.unshift(input.value)
     input.value = ''
-    renderEmojis(emojisContainer, emojis, 1, 0, 40, true)
-    renderElement(inputContainer, 0, 0, 55)
-    renderElement(btnsContainer, 1, 1.5, 70)
+    renderEmojis(emojisContainer, emojis, 2, 0, 40, true)
+    renderElement(inputContainer, 0, 0, 50)
+    renderElement(btnsContainer, 2, 1.5, 60)
 })
 
 pushBtn.addEventListener('click', function() {
     emojis.push(input.value)
     input.value = ''
-    renderEmojis(emojisContainer, emojis, 1, 0, 40, true)
-    renderElement(inputContainer, 0, 0, 55)
-    renderElement(btnsContainer, 1, 1.5, 70)
+    renderEmojis(emojisContainer, emojis, 2, 0, 40, true)
+    renderElement(inputContainer, 0, 0, 50)
+    renderElement(btnsContainer, 2, 1.5, 60)
 })
 
 deleteBtn.addEventListener('click', function() {
     let deleteEmojis =[emojis[0], emojis[emojis.length -1]] 
-    renderEmojis(deleteEmojisContainer, deleteEmojis, 1, 1.5, 70)
-    renderElement(btnsContainer, 0, 0, 55)
-    renderElement(deleteBtnsContainer, 1, 1.5, 70)
+    renderElement(btnsContainer, 0, 0, 50)
+    renderEmojis(deleteEmojisContainer, deleteEmojis, 2, 1.5, 60)
+    renderElement(deleteBtnsContainer, 2, 1.5, 60)
 })
 
 shiftBtn.addEventListener('click', function() {
     emojis.shift()
-    renderEmojis(emojisContainer, emojis, 1, 0, 40, true)
-    renderElement(deleteBtnsContainer, 0, 0, 55)
-    renderElement(deleteEmojisContainer, 0, 0, 55)
-    renderElement(btnsContainer, 1, 1.5, 70)
+    renderEmojis(emojisContainer, emojis, 2, 0, 40, true)
+    renderElement(deleteBtnsContainer, 0, 0, 50)
+    renderElement(deleteEmojisContainer, 0, 0, 50)
+    renderElement(btnsContainer, 2, 1.5, 60)
 })
 
 
 popBtn.addEventListener('click', function() {
     emojis.pop()
-    renderEmojis(emojisContainer, emojis, 1, 0, 40, true)
-    renderElement(deleteBtnsContainer, 0, 0, 55)
-    renderElement(deleteEmojisContainer, 0, 0, 55)
-    renderElement(btnsContainer, 1, 1.5, 70)
+    renderEmojis(emojisContainer, emojis, 2, 0, 40, true)
+    renderElement(deleteBtnsContainer, 0, 0, 50)
+    renderElement(deleteEmojisContainer, 0, 0, 50)
+    renderElement(btnsContainer, 2, 1.5, 60)
 })
 
 emojisContainer.addEventListener('click', function() {
     renderElement(emojisContainer, 0, 0, 50, true)
     renderElement(btnsContainer, 0, 0, 50)
-    renderElement(startBtn, 1, 1.5, 50)
+    renderElement(startBtn, 1.5, 1.5, 50)
 })
