@@ -1,0 +1,104 @@
+/* General Layout */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    color: #fff;
+    min-height: 200px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    background: inherit;
+}
+
+/* Page Elements */
+
+#start-btn {
+    background: white;
+    font-size: 70px;
+    line-height: 0;
+    border-radius: 100%;
+    border: solid 3px #333;
+    padding: 60px 30px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0);
+    transition: all 3s ease-in;
+}
+
+#emojis-container {
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0);
+    transition: all 3s ease 2.5s;
+}
+
+#btns-container {
+    display: flex; 
+    justify-content: space-evenly;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0);
+    transition: all 3s ease 2.5s;
+}
+
+
+#input-container {
+    position: absolute;
+        top: 55%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0);
+    transition: all 3s ease 2.5s;
+}
+
+input {
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    opacity: 0.5;    
+}
+
+#delete-btns-container {
+    font-size: 30px;
+    opacity: 1;
+    position: absolute;
+        top: 55%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0);
+    transition: all 3s ease 2.5s;
+}
+
+#delete-emojis-container {
+    font-size: 30px;
+    opacity: 0.7;
+    position: absolute;
+        top: 55%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0);
+    transition: all 3s ease 2.5s;
+}
+
+#shift-btn, #pop-btn {
+    padding: 0;
+}
