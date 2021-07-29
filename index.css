@@ -62,7 +62,7 @@ button {
 
 #input-container {
     position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) scale(0);
@@ -81,7 +81,7 @@ input {
     font-size: 30px;
     opacity: 1;
     position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) scale(0);
@@ -92,7 +92,7 @@ input {
     font-size: 30px;
     opacity: 0.7;
     position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) scale(0);
