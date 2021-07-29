@@ -1,5 +1,9 @@
 # Scrimba Challenges
 
-Collection of the weekly Scrimba Challenges
+Collection of Scrimba Challenges and Exercises that I coded.
 
-Film Database: https://scrimba.com/scrim/cof3f4767aacf9eb50d187315
+From Module 3: The Emoji App
+Full Challenge: https://scrimba.com/playlist/pbqMJu9
+V1: https://scrimba.com/scrim/co3f849fa8b2221f8b59c40db
+V2: https://scrimba.com/scrim/co773424399b66d016fd4dc6d
+
